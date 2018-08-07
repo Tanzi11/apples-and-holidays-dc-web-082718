@@ -53,6 +53,7 @@ holiday_supplies[:winter].values.flatten
 end 
 
 def all_supplies_in_holidays(holiday_hash)
+holiday_hash.collect do |seasons, holidays|
 
 
       
