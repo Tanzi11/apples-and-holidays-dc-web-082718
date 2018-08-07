@@ -57,6 +57,8 @@ holiday_hash.collect do |seasons, holidays|
 puts "#{seasons.capitalize}:"
 holidays.map do |holiday, supply|
 puts "  #{holiday.to_s.split("_").each{|letters| letters.capitalize!}.join(' ')}: #{supply.join(", ")}"
+end
+end 
 
 
       
