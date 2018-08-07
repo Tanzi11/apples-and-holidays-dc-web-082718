@@ -59,17 +59,6 @@ holidays.map do |holiday, supply|
 puts "  #{holiday.to_s.split("_").each{|letters| letters.capitalize!}.join(' ')}: #{supply.join(", ")}"
 end
 end 
-
-
-      
-  # iterate through holiday_hash and print items such that your readout resembles:
-  # Winter:
-  #   Christmas: Lights, Wreath
-  #   New Years: Party Hats
-  # Summer:
-  #   Fourth Of July: Fireworks, BBQ
-  # etc.
-
 end
 
 def all_holidays_with_bbq(holiday_hash)
