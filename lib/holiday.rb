@@ -71,9 +71,9 @@ if supply.include?("BBQ")
 holidays
 end
 end
-
-
+end.flatten.compact
 end
+
 
 
 
