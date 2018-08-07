@@ -55,6 +55,7 @@ end
 def all_supplies_in_holidays(holiday_hash)
 holiday_hash.collect do |seasons, holidays|
 puts "#{seasons.capitalize}:"
+holidays.map do |holiday, supply|
 
 
       
